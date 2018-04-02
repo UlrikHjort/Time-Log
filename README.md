@@ -1,0 +1,1 @@
+Time log APP for Android. Log working activities and  export to csv

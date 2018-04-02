@@ -1,0 +1,22 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@android:color/transparent" >
+
+	<TableRow>
+		<TextView android:id="@+id/Date" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:textColor="#000000" android:background="@android:color/transparent"  
+			android:textSize="20dip" 
+			android:layout_marginLeft="1px" android:layout_marginBottom="1px"
+			android:layout_marginRight="1px" android:layout_marginTop="1px"
+			android:gravity="left" android:layout_weight="1"  />
+
+		<TextView android:id="@+id/Description" android:layout_width="wrap_content" android:maxWidth="100dip"
+			android:layout_height="wrap_content" android:textColor="#000000" android:background="@android:color/transparent"  
+			android:textSize="20dip" 
+			android:layout_marginLeft="1px" android:layout_marginBottom="1px"
+			android:layout_marginRight="1px" android:layout_marginTop="1px"
+			android:gravity="right" android:layout_weight="1" />
+	</TableRow>
+
+</TableLayout>
+
+

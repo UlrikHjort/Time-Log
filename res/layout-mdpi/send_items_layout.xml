@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent"
+	android:background="@drawable/back" android:layout_gravity="center"
+	android:stretchColumns="*">
+	<TableRow>
+
+		<TextView android:id="@+id/fromDateLabel"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="30dip" android:text="From:" android:clickable="true"
+			android:onClick="onClickDateView" android:layout_margin="15dip"
+			android:layout_column="0" />
+
+		<TextView android:id="@+id/fromDateDisplay"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="30dip" android:text="17-12 1968" android:clickable="true"
+			android:background="#FFFFFF" android:onClick="onClickDateView"
+			android:layout_margin="15dip" android:layout_column="1" />
+
+	</TableRow>
+	<TableRow>
+		<TextView android:id="@+id/toDateLabel"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textSize="30dip" android:text="To:" android:clickable="true"
+			android:onClick="onClickDateView" android:layout_margin="15dip" />
+
+
+		<TextView android:id="@+id/toDateDisplay"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:background="#FFFFFF" android:textSize="30dip" android:text="17 12 1999"
+			android:clickable="true" android:onClick="onClickDateView"
+			android:layout_margin="15dip" android:layout_column="1" />
+	</TableRow>
+
+	<TableRow>
+		<Button android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Send" android:id="@+id/Send"
+			android:layout_margin="20dip" android:onClick="onClickDateView" />
+
+	</TableRow>
+
+
+</TableLayout>
